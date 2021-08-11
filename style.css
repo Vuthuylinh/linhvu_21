@@ -1,0 +1,20 @@
+body {
+  background-color: #f4d4c8;
+}
+h1 {
+  color: #00544d;
+}
+h3 {
+  color: #050044;
+}
+header,
+nav {
+  display: flex;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  display: inline-block;
+  justify-content: space-between;
+}
