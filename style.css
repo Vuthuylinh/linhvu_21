@@ -10,11 +10,38 @@ h3 {
 header,
 nav {
   display: flex;
+  justify-content: center;
 }
-nav ul {
+ul {
   display: flex;
 }
-nav ul li {
+li {
   display: inline-block;
   justify-content: space-between;
+  padding: 5px;
+}
+
+#profile-image{
+  width: 300px;
+  height:300px;
+  border-radius: 50%;
+}
+img{
+  width: 100px;
+  height:100px;
+}
+section{
+  display: flex;
+}
+.about-me{
+  display: flex;
+  background-color: #159CA2;
+  height: 420px;
+  justify-content: space-around;
+}
+.profile{
+ padding-right: 50px;
+}
+.intro{
+ padding-left: 50px;
 }
